@@ -1,1 +1,1 @@
-# python-perpetual-timer
+# perpetual-timer
