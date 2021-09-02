@@ -9,6 +9,7 @@ class PerpetualTimer(threading.Thread):
     def __init__(self, interval: float, function: Callable, initial_interval: Optional[float] = None,
                  args=None, kwargs=None) -> None:
         super().__init__()
+        self.setDaemon(True)
         self.interval = interval
         self.function = function
         self.initial_interval = initial_interval

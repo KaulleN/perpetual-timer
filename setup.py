@@ -5,7 +5,7 @@ with open('README.md') as f:
 
 setuptools.setup(
     name='perpetual-timer',
-    version='1.0.0',
+    version='1.0.1',
     description='A thread that runs endlessly until stopped with a specified interval between iterations',
     long_description=readme,
     long_description_content_type='text/markdown',
